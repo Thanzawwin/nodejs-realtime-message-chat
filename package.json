@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-socket-io",
+  "version": "1.0.0",
+  "description": "nodejs && mongodb && socket-io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev":"nodemon app"
+  },
+  "author": "than",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "socket.io": "^2.2.0"
+  }
+}
